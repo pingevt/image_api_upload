@@ -1,0 +1,18 @@
+image_api_upload.upload:
+  path: '/api/upload-image'
+  methods: [POST, GET]
+  defaults:
+    _controller: '\Drupal\image_api_upload\Controller\UploadController::upload'
+    _title: 'Image Upload'
+  requirements:
+    _permission: 'upload image via api'
+  options:
+    _auth: [key_auth]
+
+image_api_upload.settings:
+  path: '/admin/config/media/image-api-upload'
+  defaults:
+    _form: '\Drupal\image_api_upload\Form\ImageApiUploadSettingsForm'
+    _title: 'Image API Upload settings'
+  requirements:
+    _permission: 'administer image api upload settings'

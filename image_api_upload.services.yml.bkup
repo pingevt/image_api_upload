@@ -1,0 +1,6 @@
+services:
+  image_api_upload.upload_controller:
+    class: Drupal\image_api_upload\Controller\UploadController
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: controller.service_arguments }

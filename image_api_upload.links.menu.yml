@@ -1,0 +1,5 @@
+image_api_upload.settings:
+  title: 'Image API Upload settings'
+  description: 'Configure runtime settings for Image API Upload.'
+  parent: system.admin_config_media
+  route_name: image_api_upload.settings

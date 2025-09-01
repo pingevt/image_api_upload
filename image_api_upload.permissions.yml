@@ -1,0 +1,7 @@
+upload image via api:
+  title: 'Upload image via API'
+  description: 'Allow users to upload images using the API endpoint.'
+
+administer image api upload settings:
+  title: 'Administer Image API Upload settings'
+  description: 'Allow users to configure Image API Upload runtime settings.'

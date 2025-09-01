@@ -1,0 +1,9 @@
+name: 'Image API Upload'
+type: module
+description: 'Custom API to upload images with metadata as media entities.'
+core_version_requirement: ^10 || ^11
+package: Custom
+dependencies:
+  - media
+  - file
+  - key_auth
