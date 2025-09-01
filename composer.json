@@ -1,0 +1,21 @@
+{
+  "name": "pingevt/image_api_upload",
+  "description": "Drupal Module for uploading images with metadata.",
+  "type": "drupal-module",
+  "authors": [
+    {
+      "name": "Pete Inge",
+      "email": "pete.inge@gmail.com",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.1 || ^8.2 || ^8.3",
+    "bluecadet/bc_drupal_package_manager": "^1.0",
+    "composer/installers": "^1.9||^2.0",
+    "oomphinc/composer-installers-extender": "^2.0",
+    "melbahja/semver": "^1.0.0"
+  }
+}
