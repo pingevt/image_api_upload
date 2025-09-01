@@ -1,0 +1,23 @@
+{
+  "name": "image_api_upload",
+  "version": "1.0.0-alpha1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "clean": "rm -rfv ./assets/dist/* && rm -rfv ./modules/**/assets/dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pingevt/image_api_upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pingevt/image_api_upload/issues"
+  },
+  "homepage": "https://github.com/pingevt/image_api_upload#readme",
+  "dependencies": {
+    "@bluecadet/drops": "^1.1.0"
+  }
+}
